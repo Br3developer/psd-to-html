@@ -1,0 +1,495 @@
+/*================================================
+				Common Css
+================================================*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#ddd;
+	font-size:15px;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+.container{
+	max-width:960px;
+	width:95%;
+	margin:0 auto;
+	background-color:#ddd;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+			Main Header Css
+================================================*/
+
+.main_header_wrapper {
+    overflow: hidden;
+}
+
+.main_header {
+	overflow:hidden;
+    padding: 50px 0px;
+    background-image: url("image/sky.jpg");
+}
+
+.header_content{
+	overflow:hidden;
+    text-align: center;
+    color: darkblue;
+}
+
+.heading_one {
+    border: 1px solid darkslateblue;
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.headig_two {
+    margin-bottom: 50px;
+}
+
+.heading_three {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.header_paragraph {
+    padding: 0px 105px;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+			Only Content Css
+================================================*/
+
+.only_content_wrapper{
+	overflow:hidden;
+}
+
+.only_content {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 40px 10px;
+}
+
+.only_content h1 {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.box1 {
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+
+.box1 h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.box1 p{
+	text-align:justify;
+}
+
+.box1 button {
+    outline: none;
+    border: 1px solid cadetblue;
+    margin-top: 20px;
+    padding: 4px 20px;
+    border-radius: 50px;
+	cursor:pointer;
+}
+
+.box2 {
+    width: 45%;
+    float: left;
+}
+
+.box2 h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.box2 p{
+	text-align:justify;
+}
+
+.box2 button {
+    outline: none;
+    border: 1px solid cadetblue;
+    margin-top: 20px;
+    padding: 4px 20px;
+    border-radius: 50px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+			Image Content Css
+================================================*/
+
+.image_content_wrapper{
+	overflow:hidden;
+}
+
+.image_content {
+    background-color: #95a5a6;
+    padding: 40px 30px;
+    overflow: hidden;
+}
+
+.image_content h2 {
+    text-align: center;
+    color: cornsilk;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.image {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.content_paragraph {
+    width: 50%;
+    float: left;
+}
+
+.content_paragraph p {
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+    color: darkred;
+}
+
+.content_paragraph button {
+    outline: none;
+    border: 1px solid white;
+    margin-top: 74px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+    background-color: dimgray;
+    color: bisque;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+		Image Content Boxing Two Css
+================================================*/
+
+.preparing_students_wrapper {
+    overflow: hidden;
+}
+
+.preparing_students {
+    background-color: #16a085;
+    padding: 40px 30px;
+    overflow: hidden;
+}
+
+.preparing_students_contentt{
+	
+}
+
+.preparing_students_contentt h2 {
+    text-align: center;
+    color: beige;
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+.preparing_students_image1 {
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+
+.preparing_students_image1 h2 {
+    margin-bottom: 20px;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.preparing_students_image1 img {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.preparing_students_image1 p {
+    color: floralwhite;
+    margin-bottom: 20px;
+}
+
+.preparing_students_image1 a {
+    color: ghostwhite;
+    float: right;
+}
+
+
+.preparing_students_image2 {
+    width: 45%;
+    float: left;
+}
+
+.preparing_students_image2 h2 {
+    margin-bottom: 20px;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.preparing_students_image2 img {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.preparing_students_image2 p {
+    color: floralwhite;
+    margin-bottom: 20px;
+}
+
+.preparing_students_image2 a {
+    color: ghostwhite;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+		Three Image Design Css
+================================================*/
+
+.three_image_wrapper {
+    overflow: hidden;
+}
+
+.three_image {
+    background-color: #395d82;
+    padding: 40px 30px;
+    overflow: hidden;
+}
+
+.three_image_div1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.three_image_div1 h2 {
+    color: antiquewhite;
+}
+
+.three_image_div2 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.three_image_div2 img {
+    height: 150px;
+	border-radius:5px;
+}
+
+.three_image_div2 h2 {
+    margin: 10px 0px 15px 0px;
+    color: aliceblue;
+}
+
+.three_image_div2 p {
+    color: azure;
+}
+
+.three_image_div3 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.three_image_div3 img {
+    height: 150px;
+	border-radius:5px;
+}
+
+.three_image_div3 h2 {
+    margin: 10px 0px 15px 0px;
+    color: aliceblue;
+}
+
+.three_image_div3 p {
+    color: azure;
+}
+
+.three_image_div4 {
+    width: 30%;
+    float: left;
+}
+
+.three_image_div4 img {
+    height: 150px;
+	border-radius:5px;
+}
+
+.three_image_div4 h2 {
+    margin: 10px 0px 15px 0px;
+    color: aliceblue;
+}
+
+.three_image_div4 p {
+    color: azure;
+}
+
+.three_image button {
+    outline: none;
+    border: 2px solid black;
+    margin-top: 74px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #d5c5c5;
+    color: black;
+    font-weight: bold;
+    margin-left: 329px;
+}
+
+
+
+
+
+
+
+
+
+/*================================================
+		Footer Design Css
+================================================*/
+
+.footer_wrapper {
+    overflow: hidden;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #2c3e50;
+    padding: 40px 100px;
+}
+
+.footer h1 {
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 60px;
+}
+
+.footer_part1 {
+    color: #fff;
+    width: 45%;
+    float: left;
+}
+
+.footer_part1 h2 {
+    margin-bottom: 15px;
+}
+
+.footer_part1 p {
+    margin-bottom: 5px;
+}
+
+.footer_part1 a {
+	color:#fff;
+}
+
+.footer_part2 {
+    float: right;
+    color: #fff;
+}
+
+.footer_part2 h2 {
+    margin-bottom: 15px;
+}
+
+.footer_part2 p {
+    margin-bottom: 5px;
+}
+
+.footer_part2 a {
+	color:#fff;
+}
+
+.footerr_wrapper{
+	background-color:#9b9b9b;
+}
+
+.footerr {
+	overflow:hidden;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #9b9b9b;
+    color: floralwhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
